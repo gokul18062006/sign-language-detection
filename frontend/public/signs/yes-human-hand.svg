@@ -1,0 +1,26 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yesBg" x1="24" y1="20" x2="296" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07151D"/>
+      <stop offset="1" stop-color="#11392F"/>
+    </linearGradient>
+    <linearGradient id="yesHand" x1="92" y1="74" x2="274" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDCC0"/>
+      <stop offset="0.54" stop-color="#ECB88E"/>
+      <stop offset="1" stop-color="#C4885E"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="24" fill="url(#yesBg)"/>
+  <circle cx="160" cy="160" r="111" fill="#34D399" fill-opacity="0.14"/>
+  <path d="M109 247C102 220 103 193 106 171C108 156 121 146 136 146C151 146 163 158 163 173L160 207" fill="url(#yesHand)"/>
+  <path d="M160 96C160 84 170 74 182 74C194 74 204 84 204 96V203" fill="url(#yesHand)"/>
+  <path d="M204 104C204 92 214 82 226 82C238 82 248 92 248 104V205" fill="url(#yesHand)"/>
+  <path d="M248 118C248 106 258 96 270 96C282 96 292 106 292 118V213" fill="url(#yesHand)"/>
+  <path d="M94 184C94 169 83 158 68 158C53 158 42 169 42 184V210C42 232 57 249 78 255L106 263" fill="#DA9A73"/>
+  <path d="M108 173C122 171 141 175 157 185" stroke="#AE6E4D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M160 203V96" stroke="#AE6E4D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M204 203V104" stroke="#AE6E4D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M248 205V118" stroke="#AE6E4D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M292 213V118" stroke="#AE6E4D" stroke-width="4" stroke-linecap="round"/>
+  <text x="30" y="296" fill="#8CF1CC" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="21" letter-spacing="1">YES</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="helloBg" x1="30" y1="24" x2="292" y2="296" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071121"/>
+      <stop offset="1" stop-color="#0E1D34"/>
+    </linearGradient>
+    <radialGradient id="helloGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 160) rotate(90) scale(116)">
+      <stop stop-color="#1BD8F5" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#1BD8F5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="helloHand" x1="95" y1="86" x2="272" y2="261" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD8BB"/>
+      <stop offset="0.52" stop-color="#EDB98D"/>
+      <stop offset="1" stop-color="#C68A62"/>
+    </linearGradient>
+    <filter id="helloShadow" x="38" y="56" width="267" height="236" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#02060F" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="320" height="320" rx="24" fill="url(#helloBg)"/>
+  <circle cx="160" cy="160" r="112" fill="url(#helloGlow)"/>
+  <g filter="url(#helloShadow)">
+    <path d="M100 252C94 226 94 196 95 170C96 156 106 145 120 145C134 145 144 156 144 170V199" fill="url(#helloHand)"/>
+    <path d="M144 108C144 96 153 86 165 86C177 86 186 96 186 108V200" fill="url(#helloHand)"/>
+    <path d="M186 100C186 88 195 78 207 78C219 78 228 88 228 100V201" fill="url(#helloHand)"/>
+    <path d="M228 112C228 100 237 90 249 90C261 90 270 100 270 112V208" fill="url(#helloHand)"/>
+    <path d="M270 133C270 121 279 111 291 111C303 111 312 121 312 133V221C312 244 293 263 270 263H142C123 263 106 259 100 252Z" fill="url(#helloHand)"/>
+    <path d="M100 176C100 162 90 152 76 152C62 152 52 162 52 176V211C52 231 65 248 84 255L106 262" fill="#DDA07A"/>
+  </g>
+  <path d="M145 201V171" stroke="#B37452" stroke-width="4" stroke-linecap="round"/>
+  <path d="M186 201V108" stroke="#B37452" stroke-width="4" stroke-linecap="round"/>
+  <path d="M228 201V100" stroke="#B37452" stroke-width="4" stroke-linecap="round"/>
+  <path d="M270 208V112" stroke="#B37452" stroke-width="4" stroke-linecap="round"/>
+  <path d="M312 221V133" stroke="#B37452" stroke-width="4" stroke-linecap="round"/>
+  <text x="30" y="296" fill="#9ED9E7" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="21" letter-spacing="1">HELLO</text>
+</svg>

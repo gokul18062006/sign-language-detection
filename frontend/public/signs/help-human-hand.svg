@@ -1,0 +1,24 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="helpBg" x1="25" y1="20" x2="294" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0F1F"/>
+      <stop offset="1" stop-color="#1E1D3C"/>
+    </linearGradient>
+    <linearGradient id="helpHand" x1="88" y1="70" x2="280" y2="281" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDABD"/>
+      <stop offset="0.55" stop-color="#E9B083"/>
+      <stop offset="1" stop-color="#C18359"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="24" fill="url(#helpBg)"/>
+  <circle cx="160" cy="160" r="112" fill="#A78BFA" fill-opacity="0.16"/>
+  <path d="M92 239C92 213 97 187 106 167C113 152 128 145 144 149C160 153 168 169 164 185L153 224" fill="url(#helpHand)"/>
+  <path d="M160 91C158 79 165 69 177 67C189 65 199 72 201 84L225 190" fill="url(#helpHand)"/>
+  <path d="M201 87C199 75 206 65 218 63C230 61 240 68 242 80L264 177" fill="url(#helpHand)"/>
+  <path d="M242 101C240 89 247 79 259 77C271 75 281 82 283 94L301 173" fill="url(#helpHand)"/>
+  <path d="M116 262C103 257 95 248 92 239L153 224C169 220 185 230 191 246C197 264 211 277 229 282L253 289C267 293 282 284 286 270C290 256 281 243 267 239L239 230C232 228 226 223 224 216L201 118" fill="#D8946A"/>
+  <path d="M176 70L201 182" stroke="#AE6E4D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M217 64L241 173" stroke="#AE6E4D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M258 78L282 173" stroke="#AE6E4D" stroke-width="4" stroke-linecap="round"/>
+  <text x="30" y="296" fill="#C9B5FF" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="21" letter-spacing="1">HELP</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stopBg" x1="24" y1="18" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#180E05"/>
+      <stop offset="1" stop-color="#3D1E0B"/>
+    </linearGradient>
+    <linearGradient id="stopHand" x1="96" y1="84" x2="286" y2="266" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE0C7"/>
+      <stop offset="0.53" stop-color="#EEB98F"/>
+      <stop offset="1" stop-color="#C8865F"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="24" fill="url(#stopBg)"/>
+  <circle cx="160" cy="160" r="112" fill="#F97316" fill-opacity="0.12"/>
+  <path d="M108 254C101 226 101 199 101 171C101 157 112 147 126 147C140 147 151 157 151 171V203" fill="url(#stopHand)"/>
+  <path d="M151 108C151 95 161 85 174 85C187 85 197 95 197 108V203" fill="url(#stopHand)"/>
+  <path d="M197 99C197 86 207 76 220 76C233 76 243 86 243 99V204" fill="url(#stopHand)"/>
+  <path d="M243 111C243 98 253 88 266 88C279 88 289 98 289 111V209" fill="url(#stopHand)"/>
+  <path d="M289 131C289 118 299 108 312 108C325 108 332 118 332 131V222C332 246 315 266 291 266H156C136 266 116 261 108 254Z" fill="url(#stopHand)"/>
+  <path d="M108 171C121 170 138 173 152 182" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M151 203V108" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M197 203V108" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M243 204V111" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M289 209V131" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M52 66H140" stroke="#F97316" stroke-width="9" stroke-linecap="round"/>
+  <text x="30" y="296" fill="#F9B884" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="21" letter-spacing="1">STOP</text>
+</svg>
