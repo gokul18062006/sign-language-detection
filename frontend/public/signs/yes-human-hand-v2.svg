@@ -1,0 +1,34 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="296" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081219"/>
+      <stop offset="1" stop-color="#102B25"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 140) scale(94)">
+      <stop stop-color="#365F57" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#233C39" stop-opacity="0.96"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="102" y1="76" x2="220" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD8BA"/>
+      <stop offset="0.5" stop-color="#F0BB8E"/>
+      <stop offset="1" stop-color="#D49263"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="319" height="319" rx="24" fill="url(#bg)" stroke="#233A39"/>
+  <rect x="20" y="20" width="280" height="280" rx="22" fill="#0C141C" stroke="#203A38"/>
+  <circle cx="160" cy="140" r="102" fill="url(#orb)"/>
+
+  <g transform="translate(25 22)">
+    <path d="M114 174C114 163 123 154 134 154C145 154 154 163 154 174V229C154 240 145 249 134 249C123 249 114 240 114 229V174Z" fill="url(#skin)"/>
+    <path d="M145 76C145 65 154 56 165 56C176 56 185 65 185 76V144C185 155 176 164 165 164C154 164 145 155 145 144V76Z" fill="url(#skin)"/>
+    <path d="M169 68C169 57 178 48 189 48C200 48 209 57 209 68V147C209 158 200 167 189 167C178 167 169 158 169 147V68Z" fill="url(#skin)"/>
+    <path d="M193 72C193 61 202 52 213 52C224 52 233 61 233 72V150C233 161 224 170 213 170C202 170 193 161 193 150V72Z" fill="url(#skin)"/>
+    <path d="M120 194C120 182 129 173 141 173H145C153 173 160 178 163 185L174 209C178 219 175 230 167 236L151 248C143 254 132 252 126 244L120 235V194Z" fill="url(#skin)"/>
+    <path d="M171 146L191 162" stroke="#C98356" stroke-width="4" stroke-linecap="round"/>
+    <path d="M194 130L214 146" stroke="#C98356" stroke-width="4" stroke-linecap="round"/>
+    <path d="M217 114L236 130" stroke="#C98356" stroke-width="4" stroke-linecap="round"/>
+    <path d="M126 206L148 222" stroke="#C98356" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="30" y="286" fill="#8FF0D5" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="18" letter-spacing="1.3">YES</text>
+</svg>

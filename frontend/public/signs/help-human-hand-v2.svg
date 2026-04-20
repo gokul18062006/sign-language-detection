@@ -1,0 +1,24 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="22" x2="296" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#171B33"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 140) scale(94)">
+      <stop stop-color="#4A3C7C" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#2A2348" stop-opacity="0.96"/>
+    </radialGradient>
+    <linearGradient id="frame" x1="20" y1="18" x2="300" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202846"/>
+      <stop offset="1" stop-color="#12172C"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="319" height="319" rx="24" fill="url(#bg)" stroke="url(#frame)"/>
+  <rect x="22" y="22" width="276" height="276" rx="22" fill="#0C1326" stroke="#202846"/>
+  <circle cx="160" cy="150" r="104" fill="url(#orb)"/>
+
+  <text x="160" y="205" text-anchor="middle" font-size="170" font-family="Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif" fill="#F4C27A">🤟</text>
+
+  <text x="42" y="287" fill="#C5B8FF" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="18" letter-spacing="1.4">HELP</text>
+</svg>

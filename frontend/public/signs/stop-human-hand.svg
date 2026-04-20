@@ -1,27 +1,37 @@
 <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="stopBg" x1="24" y1="18" x2="300" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#180E05"/>
-      <stop offset="1" stop-color="#3D1E0B"/>
+    <linearGradient id="bg" x1="30" y1="22" x2="290" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090B18"/>
+      <stop offset="1" stop-color="#161B33"/>
     </linearGradient>
-    <linearGradient id="stopHand" x1="96" y1="84" x2="286" y2="266" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFE0C7"/>
-      <stop offset="0.53" stop-color="#EEB98F"/>
-      <stop offset="1" stop-color="#C8865F"/>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 148) scale(108)">
+      <stop stop-color="#4B3F7B" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#2A244A" stop-opacity="0.96"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="96" y1="74" x2="268" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD7B8"/>
+      <stop offset="0.55" stop-color="#F1BC90"/>
+      <stop offset="1" stop-color="#D69465"/>
+    </linearGradient>
+    <linearGradient id="skinShadow" x1="120" y1="140" x2="230" y2="262" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3A97B"/>
+      <stop offset="1" stop-color="#B7774E"/>
     </linearGradient>
   </defs>
-  <rect width="320" height="320" rx="24" fill="url(#stopBg)"/>
-  <circle cx="160" cy="160" r="112" fill="#F97316" fill-opacity="0.12"/>
-  <path d="M108 254C101 226 101 199 101 171C101 157 112 147 126 147C140 147 151 157 151 171V203" fill="url(#stopHand)"/>
-  <path d="M151 108C151 95 161 85 174 85C187 85 197 95 197 108V203" fill="url(#stopHand)"/>
-  <path d="M197 99C197 86 207 76 220 76C233 76 243 86 243 99V204" fill="url(#stopHand)"/>
-  <path d="M243 111C243 98 253 88 266 88C279 88 289 98 289 111V209" fill="url(#stopHand)"/>
-  <path d="M289 131C289 118 299 108 312 108C325 108 332 118 332 131V222C332 246 315 266 291 266H156C136 266 116 261 108 254Z" fill="url(#stopHand)"/>
-  <path d="M108 171C121 170 138 173 152 182" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
-  <path d="M151 203V108" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
-  <path d="M197 203V108" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
-  <path d="M243 204V111" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
-  <path d="M289 209V131" stroke="#B16F4E" stroke-width="4" stroke-linecap="round"/>
-  <path d="M52 66H140" stroke="#F97316" stroke-width="9" stroke-linecap="round"/>
-  <text x="30" y="296" fill="#F9B884" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="21" letter-spacing="1">STOP</text>
+  <rect x="0.5" y="0.5" width="319" height="319" rx="24" fill="url(#bg)" stroke="#25304D"/>
+  <circle cx="160" cy="148" r="106" fill="url(#orb)"/>
+  <path d="M100 202C100 182 116 166 136 166C156 166 172 182 172 202V222C172 236 163 248 150 255C145 258 141 261 138 265C135 270 128 275 118 275C106 275 98 267 98 255V224C98 216 100 209 100 202Z" fill="url(#skin)"/>
+  <path d="M132 92C132 81 141 72 152 72C163 72 172 81 172 92V158C172 169 163 178 152 178C141 178 132 169 132 158V92Z" fill="url(#skin)"/>
+  <path d="M160 86C160 75 169 66 180 66C191 66 200 75 200 86V164C200 175 191 184 180 184C169 184 160 175 160 164V86Z" fill="url(#skin)"/>
+  <path d="M188 90C188 79 197 70 208 70C219 70 228 79 228 90V168C228 179 219 188 208 188C197 188 188 179 188 168V90Z" fill="url(#skin)"/>
+  <path d="M216 98C216 87 225 78 236 78C247 78 256 87 256 98V174C256 185 247 194 236 194C225 194 216 185 216 174V98Z" fill="url(#skin)"/>
+  <path d="M116 198L144 166C151 158 163 156 171 162L184 171L175 216L141 236C130 242 116 234 114 222L113 210C112 206 113 202 116 198Z" fill="url(#skinShadow)"/>
+  <path d="M90 218C90 214 92 210 95 208L118 192C124 188 131 189 136 194L144 202C150 208 151 217 146 223L134 239C129 246 119 248 112 244L98 237C93 234 90 228 90 222V218Z" fill="#E7B184"/>
+  <path d="M112 92L129 148" stroke="#BF7D56" stroke-width="4" stroke-linecap="round"/>
+  <path d="M141 88L159 150" stroke="#BF7D56" stroke-width="4" stroke-linecap="round"/>
+  <path d="M170 86L189 158" stroke="#BF7D56" stroke-width="4" stroke-linecap="round"/>
+  <path d="M198 90L218 162" stroke="#BF7D56" stroke-width="4" stroke-linecap="round"/>
+  <path d="M232 58L278 104" stroke="#FB7185" stroke-width="9" stroke-linecap="round"/>
+  <path d="M278 58L232 104" stroke="#FB7185" stroke-width="9" stroke-linecap="round"/>
+  <text x="34" y="296" fill="#F9B884" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="18" letter-spacing="1.5">STOP</text>
 </svg>

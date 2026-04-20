@@ -97,24 +97,24 @@ const HUMAN_SIGN_IMAGE_MAP: Partial<
   >
 > = {
   hello: {
-    src: '/signs/hello-human-hand.svg',
+    src: '/signs/hello-photo.png?v=2',
     alt: 'Open human hand for hello sign',
-    caption: 'Human-form hello hand sign',
+    caption: 'Photo hello hand sign',
   },
   help: {
-    src: '/signs/help-human-hand.svg',
+    src: '/signs/help-human-hand-v2.svg',
     alt: 'Helping gesture using human hand form',
     caption: 'Human-form help hand sign',
   },
   yes: {
-    src: '/signs/yes-human-hand.svg',
+    src: '/signs/yes-photo.png?v=2',
     alt: 'Affirmative yes gesture using human hand form',
-    caption: 'Human-form yes hand sign',
+    caption: 'Photo yes hand sign',
   },
   no: {
-    src: '/signs/no-human-hand.svg',
+    src: '/signs/no-photo.png?v=2',
     alt: 'Negative no gesture using human hand form',
-    caption: 'Human-form no hand sign',
+    caption: 'Photo no hand sign',
   },
   'thank you': {
     src: '/signs/thank-you-human-hand.svg',
@@ -122,9 +122,9 @@ const HUMAN_SIGN_IMAGE_MAP: Partial<
     caption: 'Human-form thank you hand sign',
   },
   stop: {
-    src: '/signs/stop-human-hand.svg',
+    src: '/signs/stop-photo.png?v=2',
     alt: 'Stop gesture using human hand form',
-    caption: 'Human-form stop hand sign',
+    caption: 'Photo stop hand sign',
   },
 };
 

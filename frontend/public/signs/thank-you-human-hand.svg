@@ -1,28 +1,37 @@
 <svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="thankBg" x1="24" y1="18" x2="297" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#181005"/>
-      <stop offset="1" stop-color="#3D2907"/>
+    <linearGradient id="bg" x1="30" y1="22" x2="290" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090B18"/>
+      <stop offset="1" stop-color="#161B33"/>
     </linearGradient>
-    <linearGradient id="thankHand" x1="90" y1="76" x2="280" y2="264" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFE0C6"/>
-      <stop offset="0.53" stop-color="#EFB98E"/>
-      <stop offset="1" stop-color="#C7865D"/>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 148) scale(108)">
+      <stop stop-color="#4B3F7B" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#2A244A" stop-opacity="0.96"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="96" y1="74" x2="268" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD7B8"/>
+      <stop offset="0.55" stop-color="#F1BC90"/>
+      <stop offset="1" stop-color="#D69465"/>
+    </linearGradient>
+    <linearGradient id="skinShadow" x1="120" y1="140" x2="230" y2="262" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E3A97B"/>
+      <stop offset="1" stop-color="#B7774E"/>
     </linearGradient>
   </defs>
-  <rect width="320" height="320" rx="24" fill="url(#thankBg)"/>
-  <circle cx="160" cy="160" r="112" fill="#F59E0B" fill-opacity="0.12"/>
-  <path d="M106 248C101 226 101 201 104 179C106 161 121 148 139 148C157 148 171 163 170 181L166 211" fill="url(#thankHand)"/>
-  <path d="M166 99C166 87 176 77 188 77C200 77 210 87 210 99V203" fill="url(#thankHand)"/>
-  <path d="M210 108C210 96 220 86 232 86C244 86 254 96 254 108V205" fill="url(#thankHand)"/>
-  <path d="M254 120C254 108 264 98 276 98C288 98 298 108 298 120V214" fill="url(#thankHand)"/>
-  <path d="M88 185C88 170 77 159 62 159C47 159 36 170 36 185V210C36 232 51 250 73 256L104 264" fill="#DB9B74"/>
-  <path d="M104 178C120 176 141 181 160 194" stroke="#AE6D4C" stroke-width="4" stroke-linecap="round"/>
-  <path d="M166 203V99" stroke="#AE6D4C" stroke-width="4" stroke-linecap="round"/>
-  <path d="M210 203V108" stroke="#AE6D4C" stroke-width="4" stroke-linecap="round"/>
-  <path d="M254 205V120" stroke="#AE6D4C" stroke-width="4" stroke-linecap="round"/>
-  <path d="M298 214V120" stroke="#AE6D4C" stroke-width="4" stroke-linecap="round"/>
-  <path d="M223 67C232 75 244 80 257 80" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
-  <path d="M208 59C219 74 236 85 256 88" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
-  <text x="30" y="296" fill="#F7CF82" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="19" letter-spacing="1">THANK YOU</text>
+  <rect x="0.5" y="0.5" width="319" height="319" rx="24" fill="url(#bg)" stroke="#25304D"/>
+  <circle cx="160" cy="148" r="106" fill="url(#orb)"/>
+  <path d="M94 206C94 186 110 170 130 170C150 170 166 186 166 206V224C166 238 157 250 144 257C140 260 136 263 133 267C130 272 123 277 113 277C101 277 93 269 93 257V225C93 218 94 212 94 206Z" fill="url(#skin)"/>
+  <path d="M128 92C128 81 137 72 148 72C159 72 168 81 168 92V158C168 169 159 178 148 178C137 178 128 169 128 158V92Z" fill="url(#skin)"/>
+  <path d="M157 86C157 75 166 66 177 66C188 66 197 75 197 86V166C197 177 188 186 177 186C166 186 157 177 157 166V86Z" fill="url(#skin)"/>
+  <path d="M186 90C186 79 195 70 206 70C217 70 226 79 226 90V172C226 183 217 192 206 192C195 192 186 183 186 172V90Z" fill="url(#skin)"/>
+  <path d="M214 98C214 87 223 78 234 78C245 78 254 87 254 98V176C254 187 245 196 234 196C223 196 214 187 214 176V98Z" fill="url(#skin)"/>
+  <path d="M118 198L146 166C153 158 165 156 173 162L186 171L177 216L143 236C132 242 118 234 116 222L115 210C114 206 115 202 118 198Z" fill="url(#skinShadow)"/>
+  <path d="M92 218C92 214 94 210 97 208L120 192C126 188 133 189 138 194L146 202C152 208 153 217 148 223L136 239C131 246 121 248 114 244L100 237C95 234 92 228 92 222V218Z" fill="#E7B184"/>
+  <path d="M110 92L127 148" stroke="#BF7D56" stroke-width="4" stroke-linecap="round"/>
+  <path d="M141 88L159 150" stroke="#BF7D56" stroke-width="4" stroke-linecap="round"/>
+  <path d="M172 84L191 156" stroke="#BF7D56" stroke-width="4" stroke-linecap="round"/>
+  <path d="M203 88L222 160" stroke="#BF7D56" stroke-width="4" stroke-linecap="round"/>
+  <path d="M122 193L153 173" stroke="#C8835C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M145 205L170 183" stroke="#C8835C" stroke-width="4" stroke-linecap="round"/>
+  <text x="24" y="294" fill="#F7CF82" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="17" letter-spacing="1.2">THANK YOU</text>
 </svg>

@@ -1,0 +1,43 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="18" x2="296" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081219"/>
+      <stop offset="1" stop-color="#102B25"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 140) scale(94)">
+      <stop stop-color="#365F57" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#233C39" stop-opacity="0.96"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="102" y1="76" x2="220" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD8BA"/>
+      <stop offset="0.5" stop-color="#F0BB8E"/>
+      <stop offset="1" stop-color="#D49263"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="116" y1="164" x2="180" y2="244" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C98356"/>
+      <stop offset="1" stop-color="#B66E46"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="319" height="319" rx="24" fill="url(#bg)" stroke="#233A39"/>
+  <rect x="20" y="20" width="280" height="280" rx="22" fill="#0C141C" stroke="#203A38"/>
+  <circle cx="160" cy="140" r="102" fill="url(#orb)"/>
+
+  <g transform="translate(24 24)">
+    <path d="M112 170C112 158 121 149 133 149C145 149 154 158 154 170V228C154 240 145 249 133 249C121 249 112 240 112 228V170Z" fill="url(#skin)"/>
+    <path d="M141 76C141 65 150 56 161 56C172 56 181 65 181 76V146C181 157 172 166 161 166C150 166 141 157 141 146V76Z" fill="url(#skin)"/>
+    <path d="M166 66C166 55 175 46 186 46C197 46 206 55 206 66V150C206 161 197 170 186 170C175 170 166 161 166 150V66Z" fill="url(#skin)"/>
+    <path d="M191 64C191 53 200 44 211 44C222 44 231 53 231 64V148C231 159 222 168 211 168C200 168 191 159 191 148V64Z" fill="url(#skin)"/>
+    <path d="M216 68C216 57 225 48 236 48C247 48 256 57 256 68V146C256 157 247 166 236 166C225 166 216 157 216 146V68Z" fill="url(#skin)"/>
+
+    <path d="M119 196C119 184 128 175 140 175H144C152 175 159 180 162 187L171 209C175 219 172 230 164 236L149 248C141 254 130 252 124 244L119 234V196Z" fill="url(#skin)"/>
+    <path d="M171 144L190 160" stroke="#C98356" stroke-width="4" stroke-linecap="round"/>
+    <path d="M194 128L214 144" stroke="#C98356" stroke-width="4" stroke-linecap="round"/>
+    <path d="M217 114L236 130" stroke="#C98356" stroke-width="4" stroke-linecap="round"/>
+    <path d="M123 208L145 224" stroke="#C98356" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 188L130 198" stroke="#8B5538" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150 174L152 198" stroke="#8B5538" stroke-width="4" stroke-linecap="round"/>
+    <path d="M176 162L178 188" stroke="#8B5538" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="30" y="286" fill="#8FF0D5" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="18" letter-spacing="1.3">YES</text>
+</svg>
